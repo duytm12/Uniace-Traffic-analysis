@@ -14,13 +14,13 @@ II. Steps:
   1. ETL Data and Data Analysis
     - 1.1. Load and combine multiple data files into a big data file
     - 1.2. Data preprocessing: Rename, Change data type, fill null cells,
-    - 1.3. Split the email to get the email domain. From the email domain, categorize customers into different groups: Work ( if the domain contains Outlook), Student (if the domain contains edu), guest (if the domain is null), and other
+    - 1.3. Split the email to get the email domain. From the email domain, categorize customers into different groups: Work (if the domain contains Outlook), Student (if the domain contains edu), guest (if the domain is null), and other
     - 1.4. For Student users: using Regular Expression to map the school to their correct email domain
     - 1.5. From Referrer column, map the customer sources: Search Engine, Social Media, Organic, 3rd party, and other
     - 1.6. From IP Address column, map the customer geography: Vietnam, USA, Canada, Korea, Japan, ...
     - 1.7. From Course name column, map the topic: Data Analytics, Business Intelligence, Soft Skills, Programming Language, ...
     - 1.8. From Date column, retrieve Hour, DayOfWeek column to analyze the traffic by Hour and DayOfWeek
-    - 1.9. Save the cleaned data into file and ready for further analysis
+    - 1.9. Save the cleaned data into data warehouse and ready for further analysis
      
 
   2. Data Visualization
@@ -36,5 +36,5 @@ II. Steps:
 
 
 III. Tools:
-- Python: lib pandas, os, re, matplotlib, seaborn, geopandas, plotly
+- Python: Pandas, os, re, matplotlib, seaborn, geopandas, plotly
 - Power BI Desktop
