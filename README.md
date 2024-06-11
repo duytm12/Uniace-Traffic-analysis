@@ -1,4 +1,4 @@
-# Uniace-Traffic-analysis
+# SEO-analysis | E-commerce
 Uniace - an online learning platform had some interactive data of users. The goals of this analysis were to get insights about users, which courses they accessed the most, and which Referrer brought them to the website.
 
 I. Data from table Uniace.csv:
